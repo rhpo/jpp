@@ -54,13 +54,11 @@ void Main(argv=[]) {
 // if the argument is a string, load the string, and if it contains a comma, load all modules separated...
 // else if it's a variable "in code terms..." load it normally.
 
-load sys;
-load "sys";
+// "load sys" equals "require sys", same statement
 require sys;
 require "sys";
 
 require "sys, fs, controls";
-load "sys, fs, controls";
 
 // The void keyword is used as a function keyword in ODromo...
 
