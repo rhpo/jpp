@@ -91,7 +91,11 @@ Console.WriteLine( 1pi );     // Works! and returns: # 3.14...
 
 
 // Getting input from user with sys::Console::ReadLine :
+
 Console.ReadLine("prompt? ");   // THIS IS SYNCRONOUS
+
+// Sleeping:
+sleep(ms);    // THIS IS SYNCRONOUS TOO! NO MORE AWAIT STATEMENTS...
 
 exit(0);   //  BYE!!
 
