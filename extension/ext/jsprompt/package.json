@@ -1,0 +1,30 @@
+{
+  "name": "jsprompt",
+  "version": "1.0.1",
+  "description": "An NPM Package that makes creating prompts in NodeJS Easier again, using the 'readline' package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhpo/jsprompt.git"
+  },
+  "keywords": [
+    "prompt",
+    "node",
+    "nodejs",
+    "js",
+    "javascript",
+    "input",
+    "readline",
+    "output",
+    "ask"
+  ],
+  "author": "Ramy Hadid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhpo/jsprompt/issues"
+  },
+  "homepage": "https://github.com/rhpo/jsprompt#readme"
+}

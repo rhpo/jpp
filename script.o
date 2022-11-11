@@ -1,0 +1,20 @@
+require "sys";
+load "node";
+load "math";
+
+if (isNode) {
+    throw new Error("Native mode cannot interact with DOM Elements (Not supported).")
+};
+
+void LAMBDA(LAMBDA) {
+    LAMBDA.toString && (LAMBDA['toString'] = () => `void${LAMBDA["name"] ? " " + LAMBDA["name"] : ""}() { [native code] }`);
+    return LAMBDA;
+};
+
+Exports = {
+
+    select: LAMBDA(void LAMBDA(e) {
+
+        return workspace["document"] ? document.querySelector(e) : null;
+    })
+}

@@ -1,0 +1,19 @@
+{
+  "name": "odromo-jit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^8.0.3",
+    "node-cursor": "^1.1.2",
+    "node-gyp": "^9.3.0",
+    "prompt-sync": "^4.2.0",
+    "win-control": "^0.3.1"
+  }
+}

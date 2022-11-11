@@ -1,0 +1,12 @@
+require "sys";
+require "fs";
+
+Console.WriteLine("Hello PPL!".substring(6));
+Console.WriteLine("Hello");
+
+Exports = {
+    hello: {
+        name: Environment.Username
+    }
+}
+//test
