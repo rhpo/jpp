@@ -30,8 +30,7 @@
 </div>
 
 </center> 
-
-# I WILL EDIT THE README LATER... I COPIED IT FROM MY LAST REPOSITORY ( LIFE.JS )...
+### More changes coming soon...
 
 # CODE EXAMPLE FOR ODROMO:
 ```js
