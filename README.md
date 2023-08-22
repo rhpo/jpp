@@ -7,7 +7,7 @@
 [![Linkedin][linkedin-shield]][linkedin-url]
 [![Discord][discord-shield]][discord-url]
  
-# ODromo &nbsp;&horbar;&nbsp; JavaScript++
+# ODromo &nbsp;&horbar;&nbsp; A JavaScript dialect.
 <div align="center">
 <br>
    <!--img src="https://i.ibb.co/Fwk65L4/LIFE.png" width="95"-->   
